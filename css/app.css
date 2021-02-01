@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "ＭＳ Ｐゴシック";
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.cell img {
+    width: 30px;
+    height: auto;
+}
+
+.game-over {
+    background-color: dodgerblue;
+    margin: auto;
+    text-align: center;
+    height: 800px;
+    display: none;
+    font-size: 100px;
+    position: absolute;
+    left: 450px;
+    width: 1000px;
+    top: 50px;
+    background-image: url('../imgs/gameover.jpg');
+    background-size: 1000px;
+    border: grey 1px solid;
+}
+
+.game-over h2 {
+    margin: auto;
+    padding-top: 100px;
+}
+
+.victory {
+    background-color: dodgerblue;
+    margin: auto;
+    text-align: center;
+    height: 800px;
+    display: none;
+    font-size: 100px;
+    position: absolute;
+    left: 450px;
+    width: 1000px;
+    top: 50px;
+    border: grey 1px solid;
+}
+
+.victory h2 {
+    margin: auto;
+    padding-top: 100px;
+}
+
+.victory button {
+    margin-top: 250px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    outline: none;
+}
+
+.game-over button {
+    margin-top: 500px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    outline: none;
+}
+
+.board-container {
+    width: 650px;
+    height: 500px;
+    margin: auto;
+    margin-top: 0px;
+    margin-left: 660px;
+}
+
+.table {
+    margin: auto;
+}
+
+.score {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.play {
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.play button {
+    margin-right: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+}
